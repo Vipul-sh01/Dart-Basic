@@ -17,7 +17,7 @@ class person extends userName{
 
 // asyncronous function
   void add(a, b){
-   Future.delayed(Duration(seconds: 2), (){
+   Future.delayed(Duration(seconds: 2), (){ // it will wait for 2 seconds
       print(a+b);
    });
   }
