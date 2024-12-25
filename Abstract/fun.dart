@@ -13,7 +13,7 @@ abstract class Animal{
 }
 
 class Rat extends Animal{
-  @override
+  @override // it is used to override the method of parent class.
   void eat(){ // used as a template for other classes. whatever we want to do with this method we can do it in other classes.
     print('Rat is eating');
   }
