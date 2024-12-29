@@ -11,6 +11,7 @@ In Dart, you can declare a nullable variable by adding a question mark (?) after
 
  Use case:
 
+
   Nullable variables are useful when you need to represent the absence of a value or when you 
   want to differentiate between a null value and a default value.
 */
