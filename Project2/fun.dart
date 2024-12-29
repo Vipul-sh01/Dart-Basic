@@ -15,7 +15,7 @@ class person extends userName{
   late int a;
   late int b;
 
-// asyncronous function
+// asyncronous function: it is used to wait for some time before executing the code. 
   void add(a, b){
    Future.delayed(Duration(seconds: 2), (){ // it will wait for 2 seconds
       print(a+b);
