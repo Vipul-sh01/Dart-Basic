@@ -17,7 +17,7 @@ class Rat extends Animal{
   void eat(){ // used as a template for other classes. whatever we want to do with this method we can do it in other classes.
     print('Rat is eating');
   }
-  void move(){
+  void move(){ // non abstract method. it has body.
     print('Rat is making sound');
   }
 
@@ -26,3 +26,41 @@ class Rat extends Animal{
   }
 }
 
+abstract class WildAnimal {
+  void eat();
+}
+
+//Q6: whats is interface in dart?
+// An interface in Dart is a class that defines a set of abstract methods. like abstract class.
+
+class Dog implements WildAnimal { // implements is used to implement the interface.
+  @override
+  void eat() => print("Dog is eating");
+}
+
+void main() {
+  Dog dog = Dog();
+  dog.eat(); // Output: Dog is eating
+}
+
+// example of interface in dart:
+// An interface in Dart is a class that defines a set of abstract methods. like abstract class.
+
+
+// Q1: Difference between abstract class and interface in Dart?
+// An abstract class in Dart can have both abstract and non-abstract methods, while an interface can only have abstract methods.
+// An abstract class can have fields, constructors, and methods with implementations, while an interface can only have method signatures.
+
+// Q2: Difference between abstract class and concrete class in Dart?
+// An abstract class in Dart cannot be instantiated, while a concrete class can be instantiated. 
+
+// Q3: When to use an abstract class in Dart?
+// Use an abstract class in Dart when you want to define a common interface for a set of subclasses.
+
+// q4: Difference between extends and implements in Dart?
+// The extends keyword is used to create a subclass that inherits from a superclass, 
+//while the implements keyword is used to create a class that conforms to an interface.
+
+
+// q5: What is the use of the @override annotation in Dart?
+// The @override annotation is used to indicate that a method in a subclass is overriding a method in the superclass.
