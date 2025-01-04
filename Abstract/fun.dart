@@ -27,7 +27,7 @@ class Rat extends Animal{
 }
 
 abstract class WildAnimal {
-  void eat();
+  void eat();// Abstract method
 }
 
 //Q6: whats is interface in dart?
@@ -35,7 +35,7 @@ abstract class WildAnimal {
 
 class Dog implements WildAnimal { // implements is used to implement the interface.
   @override
-  void eat() => print("Dog is eating");
+  void eat() => print("Dog is eating"); // it is used to override the method of parent class. and non abstract method.
 }
 
 void main() {
