@@ -47,6 +47,12 @@ void main() {
 // An interface in Dart is a class that defines a set of abstract methods. like abstract class.
 
 
+//  Types of interFaces int dart:
+// 1. Single Interface // A class can implement a single interface in dart.
+// 2. Multiple Interface  //A class can implement multiple interfaces in dart.
+// 3. Interface Inheritance // An interface can inherit from another interface in dart. 
+
+
 // Q1: Difference between abstract class and interface in Dart?
 // An abstract class in Dart can have both abstract and non-abstract methods, while an interface can only have abstract methods.
 // An abstract class can have fields, constructors, and methods with implementations, while an interface can only have method signatures.
