@@ -11,9 +11,9 @@ Stream<int>getData()async*{ // async* is used to create a stream
 }
 
 void main()async{
-  // getData().listen((data){ // listen() is used to listen the stream
-  //   print(data);
-  // });
+  getData().listen((data){ // listen() is used to listen the stream
+    print(data);
+  });
 
   // await for(int value in getData()){ // await for is used to wait for the stream to complete
   //   print(value);
@@ -23,9 +23,9 @@ void main()async{
   //   print(data);
   // });
 
-  getData().asBroadcastStream().listen((Data){
-    print(Data);
-  });
+  // getData().asBroadcastStream().listen((Data){
+  //   print(Data);
+  // });
 
 
 }
