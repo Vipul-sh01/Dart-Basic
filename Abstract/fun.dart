@@ -4,7 +4,7 @@
 
 abstract class Animal{
   late String name;
-  late int age;
+  int? age;
 
 
   void eat(); // abstract method.  No implementation that means no body. simmplly no instruction {}
