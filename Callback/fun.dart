@@ -16,6 +16,3 @@ void getData(Data, nextData){
     }
   });
 }
-
-
-
