@@ -10,7 +10,7 @@ class userName{
 
 // useing inharetance in dart 
 class person extends userName{
-  late String address;
+  late String address; // late keyword is used to declare a variable that will be initialized later
   late int pinCode;
   late int a;
   late int b;
