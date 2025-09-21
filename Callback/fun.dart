@@ -7,6 +7,7 @@
 // }
 
 
+
 void getData(Data, nextData){
   print('Getting Yout Data');
   Future.delayed(Duration(seconds: 2),(){
